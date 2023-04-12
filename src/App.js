@@ -8,7 +8,7 @@ import Card from "./components/Card/Card";
 function App() {
   return (
     <div className="h-screen w-full bg-[#13f287] flex justify-center items-center">
-      <div className="w-11/12 bg-black  rounded-2xl py-10 flex flex-col justify-center gap-20 text-white px-[5%]">
+      <div className="w-11/12 bg-gradient-to-t from-[#000000a0] from-10% to-black to-90% rounded-2xl py-10 flex flex-col justify-center gap-20 text-white px-[5%]">
         <div className="flex justify-between  ">
           <Logo />
           <Header />

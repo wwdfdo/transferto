@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <ul className="flex gap-10 font-bold text-lg pt-10">
       {footerItems.map((footerItem) => (
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-4 cursor-pointer">
           <div>{footerItem.icon}</div>
           <li>{footerItem.name}</li>
         </div>

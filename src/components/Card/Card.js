@@ -13,16 +13,8 @@ const Card = () => {
     <div className="relative text-white">
       <div className="dot absolute w-[50px] h-[50px] -top-10 -right-10 "></div>
       <div className="dot absolute w-[70px] h-[70px] -top-20 -right-20 "></div>
-      <img
-        src={gem1}
-        className="absolute top-0 -left-20 w-[60px] lg:w-full"
-        alt=""
-      />
-      <img
-        src={gem2}
-        className="absolute top-0 -right-16 w-[60px] lg:w-full"
-        alt=""
-      />
+      <img src={gem1} className="absolute top-0 -left-20 w-[60px] " alt="" />
+      <img src={gem2} className="absolute top-0 -right-16 w-[60px] " alt="" />
       <div className="flex flex-col justify-center  py-5 px-8  bg-[#181a1c] gap-4 rounded-xl w-[100%] lg:w-[400px]">
         <div className="flex gap-5 items-center justify-center">
           <TiBatteryHigh size={32} />
@@ -46,7 +38,7 @@ const Card = () => {
       <div className="dot absolute w-[70px] h-[70px] -bottom-10 -right-10 "></div>
       <div className="dot absolute w-[50px] h-[50px] bottom-48 -left-20 "></div>
       <div className="dot absolute w-[70px] h-[70px] bottom-40 -left-32 "></div>
-      <img src={gem3} className="absolute right-20 w-[60px] lg:w-full" alt="" />
+      <img src={gem3} className="absolute right-20 w-[60px] " alt="" />
     </div>
   );
 };

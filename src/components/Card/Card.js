@@ -48,7 +48,7 @@ const Card = () => {
       <div className="dot absolute w-[70px] h-[70px] bottom-40 -left-32 "></div>
       <img
         src={gem3}
-        className="absolute right-20 -bottom-12 lg:bottom-0 lg:w-[60px] w-[40px] "
+        className="absolute right-20 -bottom-12 lg:-bottom-20 lg:w-[60px] w-[40px] "
         alt=""
       />
     </div>

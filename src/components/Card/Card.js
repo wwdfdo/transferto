@@ -9,6 +9,7 @@ import { selectItems1 } from "../../arrays/selectItems";
 import { selectItems2 } from "../../arrays/selectItems";
 import SelectTabs from "../SelectTab/SelectTabs";
 import { motion } from "framer-motion";
+import rightleaf from "../../images/rleaf.png";
 const Card = () => {
   return (
     <div className="relative text-white z-50">
@@ -55,6 +56,11 @@ const Card = () => {
         }}
         className="flex flex-col justify-center  py-5 px-8  bg-[#181a1c] gap-4 rounded-xl w-[100%] lg:w-[400px]"
       >
+        <img
+          src={rightleaf}
+          className="absolute -right-8 -top-10 w-[80px] -rotate-12"
+          alt=""
+        />
         <div className="flex gap-5 items-center justify-center">
           <TiBatteryHigh size={32} />
           <h2 className="text-lg font-semibold">Choose Your Option</h2>
@@ -72,7 +78,13 @@ const Card = () => {
         <button className="flex justify-center shadow-[0px_5px_10px_0px_rgb(110,79,204,1)] w-1/2 mx-auto rounded-lg bg-pink-500 py-1 text-black font-bold">
           Swap
         </button>
+        <img
+          src={rightleaf}
+          className="absolute -left-8 -bottom-10 w-[80px] rotate-[163deg]"
+          alt=""
+        />
       </motion.div>
+
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

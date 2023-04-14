@@ -1,10 +1,14 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const SelectTabs = ({ items }) => {
   return (
     <div className="flex justify-around">
       {items.map((selectItem1) => (
-        <div className="px-2 lg:py-3 py-2  border-spacing-5 border-2 border-white rounded-lg bg-black w-2/5">
+        <motion.div
+          whileHover={{ scale: 1.1 }}
+          className="px-2 lg:py-3 py-2  border-spacing-5 border-2 border-white rounded-lg bg-black w-2/5"
+        >
           <select
             name="cars"
             id="cars"
@@ -14,7 +18,7 @@ const SelectTabs = ({ items }) => {
               <option value={option}>{option}</option>
             ))}
           </select>
-        </div>
+        </motion.div>
       ))}
     </div>
   );

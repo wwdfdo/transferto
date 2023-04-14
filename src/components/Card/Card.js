@@ -38,9 +38,9 @@ const Card = () => {
           </div>
           <SelectTabs items={selectItems2} />
         </div>
-        <div className="flex justify-center shadow-[0px_5px_10px_0px_rgb(110,79,204,1)] w-1/2 mx-auto rounded-lg bg-pink-500 py-1 text-black font-bold">
+        <button className="flex justify-center shadow-[0px_5px_10px_0px_rgb(110,79,204,1)] w-1/2 mx-auto rounded-lg bg-pink-500 py-1 text-black font-bold">
           Swap
-        </div>
+        </button>
       </div>
       <div className="dot absolute w-[50px] h-[50px] right-0 "></div>
       <div className="dot absolute w-[70px] h-[70px] -bottom-10 -right-10 "></div>

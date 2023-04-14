@@ -7,6 +7,7 @@ import Solana from "../images/solana.png";
 import Polygon from "../images/polygon.png";
 import Near from "../images/near.png";
 import Bnb from "../images/bnb.png";
+import Arbi from "../images/arbitrum.png";
 
 export const footerItems = [
   {
@@ -19,11 +20,11 @@ export const footerItems = [
     name: "POLYGON",
     icon: Polygon,
   },
-  // {
-  //   id: 3,
-  //   name: "ARBITRUM",
-  //   icon: <TbHexagonLetterA size={40} />,
-  // },
+  {
+    id: 3,
+    name: "ARBITRUM",
+    icon: Arbi,
+  },
   {
     id: 4,
     name: "BSC",

@@ -12,7 +12,7 @@ const Card = () => {
   return (
     <div className="relative text-white z-50">
       <div className="dot absolute w-[50px] h-[50px] -top-10 -right-10 "></div>
-      <div className="dot absolute w-[70px] h-[70px] -top-20 -right-20 "></div>
+      <div className="dot absolute w-[70px] h-[70px] -top-16 -right-0 "></div>
       <img
         src={gem1}
         className="absolute lg:top-0 -top-10 lg:-left-20 -left-8 lg:w-[60px] w-[40px] "

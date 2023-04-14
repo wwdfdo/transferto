@@ -1,33 +1,37 @@
-import { TbCurrencySolana } from "react-icons/tb";
-import { BiPolygon } from "react-icons/bi";
-import { TbHexagonLetterA } from "react-icons/tb";
-import { TbHexagonLetterB } from "react-icons/tb";
-import { TbHexagonLetterN } from "react-icons/tb";
+// import { TbCurrencySolana } from "react-icons/tb";
+// import { BiPolygon } from "react-icons/bi";
+// import { TbHexagonLetterA } from "react-icons/tb";
+// import { TbHexagonLetterB } from "react-icons/tb";
+// import { TbHexagonLetterN } from "react-icons/tb";
+import Solana from "../images/solana.png";
+import Polygon from "../images/polygon.png";
+import Near from "../images/near.png";
+import Bnb from "../images/bnb.png";
 
 export const footerItems = [
   {
     id: 1,
     name: "SOLANA",
-    icon: <TbCurrencySolana size={40} />,
+    icon: Solana,
   },
   {
     id: 2,
     name: "POLYGON",
-    icon: <BiPolygon size={40} />,
+    icon: Polygon,
   },
-  {
-    id: 3,
-    name: "ARBITRUM",
-    icon: <TbHexagonLetterA size={40} />,
-  },
+  // {
+  //   id: 3,
+  //   name: "ARBITRUM",
+  //   icon: <TbHexagonLetterA size={40} />,
+  // },
   {
     id: 4,
     name: "BSC",
-    icon: <TbHexagonLetterB size={40} />,
+    icon: Bnb,
   },
   {
     id: 5,
     name: "NEAR",
-    icon: <TbHexagonLetterN size={40} />,
+    icon: Near,
   },
 ];

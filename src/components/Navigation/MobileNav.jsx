@@ -1,14 +1,10 @@
 import React from "react";
-// import { ImMenu } from "react-icons/im";
 
 import { CgMenu } from "react-icons/cg";
 import { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { menus } from "../../arrays/menus";
-// import Logo from "./Logo";
 
-// import { Link } from "react-router-dom";
-import { menuButtons } from "../../arrays/menuButtons";
 import Logo from "../Logo/Logo";
 
 const MobileNav = () => {

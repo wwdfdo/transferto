@@ -14,25 +14,30 @@ export const footerItems = [
     id: 1,
     name: "SOLANA",
     icon: Solana,
+    class: "w-[30px] lg:w-[40px]",
   },
   {
     id: 2,
     name: "POLYGON",
     icon: Polygon,
+    class: "w-[30px] lg:w-[40px]",
   },
   {
     id: 3,
     name: "ARBITRUM",
     icon: Arbi,
+    class: "w-[20px] lg:w-[30px]",
   },
   {
     id: 4,
     name: "BSC",
     icon: Bnb,
+    class: "w-[30px] lg:w-[40px]",
   },
   {
     id: 5,
     name: "NEAR",
     icon: Near,
+    class: "w-[30px] lg:w-[40px]",
   },
 ];
